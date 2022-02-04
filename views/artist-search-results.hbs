@@ -1,0 +1,21 @@
+<a href="/">Back to home</a>
+<form action="/artist-search" method="GET">
+  <input type="text" name="artist" />
+  <br />
+  <button type="submit">Search for an Artist</button>
+</form>
+<div class="all-search-results">
+  {{#each artists}}
+    <div class="search-result">
+      <p>{{this.name}}</p>
+      <br />
+      <img
+        class="artist-cover"
+        src={{this.images.1.url}}
+        alt="No album preview found"
+      />
+      <br />
+      <button><a href="/albums/{{this.name}}/{{this.id}}">view albums</a></button>
+    </div>
+  {{/each}}
+</div>

@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0
+}
+
+div {
+    margin: 0;
+}
+
+.gray-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 300px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.background {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+}
+
+.homepage {
+    padding: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.orange-button {
+    position: relative;
+    padding: 5 10 5 10;
+    border-style: none;
+    border: 1px;
+    background-color: orangered;
+}
+
+.all-search-results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.search-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+}
+
+.artist-cover {
+    width: 160px;
+}
+
+.each-album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+}
+
+.all-albums {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.all-tracks {
+    display: flex;
+    flex-direction: column;
+}
+
+.each-track {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
